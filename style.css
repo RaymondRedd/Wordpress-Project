@@ -1,0 +1,764 @@
+/*
+
+Theme Name: LearningWordpress
+Author: Redd
+Author URI: www.google.com
+Version: 1.0
+*/
+
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	color: #333;
+}
+
+a:link,
+a:visited {
+	color: #006ec3;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.post:last-of-type {
+	border-bottom: none;
+}
+
+.site-header {
+	border-bottom: 2px solid #999;
+	display: flex;
+	background-color: #ededed;
+	width: 100%;
+	height: 100px;
+}
+
+.site-footer {
+	margin-top: 30px;
+	border-top: 2px solid #999;	
+}
+
+.post {
+	border-bottom: 2px solid #999;
+}
+
+/* Logo */
+
+.logo {
+	width: 8%;
+}
+
+/* Navigation Menus */
+
+.site-nav {
+	width: 50%;
+	position: relative;
+	right: 270px;
+		margin-top: 30px;
+}
+
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav ul:before, .site-nav ul:after {content: ""; display: table; }
+.site-nav ul:after { clear: both; }
+.site-nav ul { *zoom: 1; }
+
+.site-nav ul li {
+	list-style: none;
+	float: left;
+	font-size: 17px;
+
+}
+
+.site-header nav ul li {
+	margin-right: 5px;
+}
+
+.site-header nav ul li a {
+	color: #232323;
+}
+
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+	display: block;
+	padding: 10px 18px;
+	border-bottom: none;
+	text-decoration: none;
+}
+
+.site-header nav ul li a:hover {
+	background-color: #ECECEC;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited {
+	background-color: #232323;
+	color: #fff;
+}
+
+.site-content{ 
+	width: 100%;
+}
+
+.about {
+	width: 60%;
+	text-align: center;
+	margin:0 auto;
+	padding-bottom: 30px;
+}
+
+.about h1 {
+	font-size: 40px;
+	padding-top: 30px;
+}
+
+.us {
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.main-column {
+	width: 70%;
+	float: left;
+}
+
+.secondary-column {
+	width: 30%;
+	float: right;
+}
+
+/* Pages */
+
+article.page h2 {
+	font-size: 300%;
+}
+
+div.title-column {
+	width: 30%;
+	float: left;
+}
+
+div.text-column {
+	width: 70%;
+	float: right;
+}
+
+/* Post Styles */
+
+.post h2 {
+	margin-bottom: 0;
+}
+
+.post-info {
+	font-size: 86%;
+	color: #999;
+}
+
+.post-info a:link,
+.post-info a:visited {
+	color: #999;
+}
+
+/*Image Styles */
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.we {
+	display: flex;
+	width: 100%;
+	padding: 5px;
+}
+
+.pros {
+	width: 25%;
+	text-align: center;
+	height: 200px;
+	padding-top: 60px;
+}
+
+.pros img {
+	width: 100px;
+}
+
+.pros p {
+	padding-top: 30px;
+}
+
+.challenges {
+	width: 25%;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.challenges img {
+	width: 100px;
+}
+
+.challenges p {
+	padding-top: 30px;
+}
+
+.us {
+	width: 25%;
+	text-align: center;
+}
+
+.us img {
+	width: 100px;
+}
+
+.hugeworks {
+	width: 25%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.hugeworks img {
+	width: 100px;
+}
+
+.hugeworks p {
+	padding-top: 5px;
+}
+
+.skills {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.links {
+	width: 100%;
+	display: flex;
+	padding: 10px;
+	justify-content: center;
+	padding-top: 80px;
+}
+
+.links p {
+	color: #ff0a0a;
+}
+
+.links a {
+	text-decoration: none;
+	color: #232323;
+}
+
+.superbowl {
+	width: 30%;
+	text-align: center;
+}
+
+.boomers {
+	width: 30%;
+	text-align: center;
+}
+
+.phygital {
+	text-align: center;
+	width: 30%;
+}
+
+.skillsback {
+	background-image: url('img/pattern.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/* Search */
+
+.hd-search {
+	float: right;
+	position: relative;
+	width: 30%;
+	left: 570px;
+	margin-top: 36px;
+}
+
+.hd-search label {
+	position: absolute;
+	left: -9999px;
+}
+
+#searchsubmit {
+	background-color: #006ec3;
+	color: #fff;
+	padding: 5px 15px;
+	border: none;
+	vertical-align: top;
+	background-color: #232323;
+}
+
+#s {
+	vertical-align: top;
+	padding: 3px 0;
+}
+
+#theme-slider img {
+	width: 100%;
+}
+
+.content {
+	background-image: url('img/video.jpg');
+}
+
+.services {
+	width: 100%;
+	text-align: center;
+	background-image: url('img/service.jpg');
+	background-size: cover;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+
+.title {
+	padding-bottom: 80px;
+}
+
+.articlebox {
+	width: 100%;
+	display: flex;
+	padding-left: 50px;
+	padding-top: 30px;
+}
+
+.article {
+	display: flex;
+	width: 30%;
+	text-align: left;
+}
+
+.article img {
+	width: 30%;
+	height: 130px;
+	padding-top: 10px;
+	padding-right: 20px;
+}
+
+.aritcletext {
+	width: 70%;
+}
+
+.media {
+	width: 100%;
+	text-align: center;
+	background-color: #e8e8e8;
+	height: 700px;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.members {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	justify-content: space-between;
+}
+
+.member {
+	width: 30%;
+	background-color: #fff;
+}
+
+.member a {
+	text-decoration: none;
+	color: #282828;
+}
+
+.member > p {
+	margin-top: 50px;
+}
+
+.job p {
+	position: relative;
+	top: -150px;
+	color: #ff0a0a;
+	font-weight: bold;
+}
+
+.ux p {
+	position: relative;
+	bottom: 160px;
+	color: #ff0a0a;
+	font-weight: bold;
+}
+
+.icons a {
+	color: #ff0a0a;
+	position: relative;
+	bottom: 10px;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.signup {
+	width: 100%;
+	text-align: center;
+	background-image: url('img/city.jpg');
+	height: 300px;
+	padding-top: 10px;
+}
+
+.newsletter {
+	display: flex;
+	justify-content: center;
+}
+
+.email {
+	border: 1px solid black;
+	border-radius: 10px 0 0 10px;
+	width: 300px;
+	height: 50px;
+}
+
+.submit {
+	border: none;
+	border: 1px solid black;
+	border-radius: 0 10px 10px 0;
+	width: 150px;
+	background-color: #ff0a0a;
+	font-weight: bold;
+}
+
+.contact {
+	width: 100%;
+	display: flex;
+}
+
+.contact span {
+	color: #ff0a0a;
+}
+
+.contact img {
+	width: 100px;
+}
+
+.adress {
+	width: 25%;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.phones {
+	width: 25%;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.contacts {
+	width: 25%;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.hours {
+	width: 25%;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.footericons {
+	float: right;
+	position: relative;
+	left: -30px;
+	padding-top: 20px;
+}
+
+.footericons a {
+	padding: 10px;
+	color: #ff0a0a;
+	font-weight: bold;
+}
+
+footer {
+	background-color: #e2e2e2;
+	height: 50px;
+}
+
+.abouthead {
+	background-image: url('img/about-banner.jpg');
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+}
+
+.page {
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+}
+
+.images {
+	float: left;
+	width: 60%;
+}
+
+.postss {
+	width: 100%;
+	display: flex;
+	padding: 30px;
+}
+
+.postss a {
+	text-decoration: none;
+}
+
+.date {
+	display: flex;
+	width: 100%;
+}
+
+.date p {
+	padding-right: 10px;
+}
+
+.eachpost {
+	padding-left: 30px;
+	display: block;
+	text-align: left;
+	width: 30%;
+}
+
+.eachpost a:nth-of-type(1) {
+	color: black;
+}
+
+.eachpost > a {
+	color: #ff0a0a;
+	font-weight: bold;
+}
+
+.eachpost a:nth-of-type(2) {
+	color: #ff0a0a;
+}
+
+
+.eachpost i {
+	color: #ff0a0a;
+}
+
+
+.btn {
+	position: relative;
+	top: 30px;
+	padding: 10px 15px;
+	background-color: #ff0a0a;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.contactimage {
+	background-image: url('img/contact.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+}
+
+.offer {
+	width: 100%;
+	display: flex;
+	padding-bottom: 30px;	
+}
+
+.oneoff {
+	width: 50%;
+	display: flex;
+	padding-top: 60px;
+	padding-left: 30px;
+}
+
+.oneoff img {
+	width: 30%;
+	height: 150px;
+	padding-right: 20px;
+}
+
+.offtext {
+	width: 50%;
+	font-size: 13px;
+	text-align: left;
+}
+
+.projects {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+.image {
+	background-image: url('img/protonmail.png');
+	width: 600px;
+	height: 300px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	transition: all 0.5s ease;
+	margin-left: 30px;
+}
+
+
+.imagehover {
+	background-color: red;
+	color: black;
+	opacity: 0;
+	position: absolute;
+	width: 380px;
+	height: 240px;
+	transition: all .3s ease-out;
+	font-size: 17px;
+}
+
+.imagehover a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.imagehover h3 {
+	margin-top: 100px;
+}
+
+.image:hover .imagehover {
+	opacity: 0.9;
+}
+
+.first {
+	background-image: url('img/engaging.png');
+}
+
+.second {
+	background-image: url('img/stripe.png');
+}
+
+.fourth {
+	background-image: url('https://framework.dreamscape.cloud/design_framework/images/crazy/web_design/slide3.jpg');
+}
+
+.fifth {
+	background-image: url('img/logistic.png');
+}
+
+.sixth {
+	background-image: url('img/da.jpg');
+}
+
+.hd-search {
+	padding-left: 230px;
+}
+
+.footerhome {
+	
+	position: relative;
+	bottom: 55px;	
+}
+
+
+@media screen and (max-width: 1400px) {
+	.hd-search {
+		position: relative;
+		left: 400px;
+	}
+	.site-nav {
+		position: relative;
+		left: -360px;
+		width: 50%;
+	}
+	.site-nav ul li {
+		font-size: 13px;
+	}
+
+	.member > img {
+		height: 275px;
+	}
+
+	.last {
+		position: relative;
+		top: 15px;
+	}
+
+	.first {
+		position: relative;
+		top: 7px;
+		background-color: #fff;
+	}
+
+	.ux {
+		position: relative;
+		top: 7px;
+	}
+
+	.back-end {
+		position: relative;
+		bottom: 10px;
+	}
+
+	.project {
+		position: relative;
+		bottom: 15px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	
+	.site-header {
+		height: 80px;
+	}
+
+	.hd-search {
+		width: 30%;
+		left: 310px;
+	}
+
+	.hd-search input {
+		width: 40%;
+	}
+
+	.site-nav {
+		position: relative;
+		left: -210px;
+		width: 900px;
+	}
+
+	.site-nav ul li {
+		font-size: 8px;
+	}
+
+
+	.logo {
+		width: 150px;
+	}
+
+}
+
+
+.carousel .item {
+	height: 50vh;
+	overflow: hidden;
+}
+
+.carousel .item img {
+	width: 100%;
+	height: auto;
+	margin-top: -15%;
+}
